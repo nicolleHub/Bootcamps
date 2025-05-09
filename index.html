@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dulcinea Cream</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <div class="header__logo-container">
+            <img src="img/logo.jpg" alt="Logo Dulcinea" class="header__logo-img">
+            <h1 class="header__logo-text">Dulcinea Cream</h1>
+        </div>
+        <nav class="header__nav">
+        <ul class="header__menu">
+            <li class="header__item"><a href="#" class="header__link">Inicio</a></li>
+            <li class="header__item"><a href="#productos" class="header__link">Productos</a></li>
+            <li class="header__item"><a href="#contacto" class="header__link">Contacto</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN PRINCIPAL -->
+    <section class="hero">
+        <div class="hero__content">
+            <h2 class="hero__title">Postres hechos con amor</h2>
+            <p class="hero__text">Disfruta de nuestros dulces 100% artesanales. Calidad, sabor y cariño en cada bocado.
+                Elaboramos postres tradicionales con ingredientes naturales para deleitarte en cualquier ocasión
+                especial.</p>
+            <a href="#contacto" class="hero__button">Haz tu pedido</a>
+        </div>
+        <div class="hero__image">
+            <img src="img/postres.jpg" alt="Postres artesanales de Dulcinea Cream" />
+        </div>
+    </section>
+
+    <!-- TARJETAS DE PRODUCTOS -->
+    <section class="productos" id="productos">
+        <h3 class="productos__title">Nuestros Productos</h3>
+        <div class="productos__grid">
+            <div class="producto-card">
+                <h4 class="producto-card__title">Brownies</h4>
+                <img src="img/brownie.jpg" alt="Brownies artesanales" class="producto-card__img" />
+                <p class="producto-card__desc">Chocolate puro y textura suave. Nuestro postre estrella perfecto para
+                    cualquier momento.</p>
+            </div>
+            <div class="producto-card">
+                <h4 class="producto-card__title">Cheesecake</h4>
+                <img src="img/cheesecake.jpg" alt="Cheesecake con mermelada" class="producto-card__img" />
+                <p class="producto-card__desc">Clásico con base de galleta y mermelada artesanal. Disponible en varios
+                    sabores.</p>
+            </div>
+            <div class="producto-card">
+                <h4 class="producto-card__title">Galletas</h4>
+                <img src="img/galletas.jpg" alt="Galletas con chips de chocolate" class="producto-card__img" />
+                <p class="producto-card__desc">Crujientes y con chips de chocolate. Ideales para acompañar tu café o té.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section class="contacto" id="contacto">
+        <h3 class="contacto__title">Contáctanos</h3>
+        <form class="contacto__form">
+            <input type="text" class="contacto__input" placeholder="Nombre" required />
+            <input type="email" class="contacto__input" placeholder="Correo" required />
+            <textarea class="contacto__textarea" placeholder="Mensaje" required></textarea>
+            <button type="submit" class="contacto__button">Enviar</button>
+        </form>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <p class="footer__text">Dulcinea Cream - Postres y Dulces Artesanales hechos con amor</p>
+    </footer>
+
+</body>
+
+</html>
