@@ -4,7 +4,7 @@ Este es un proyecto que hice para "Dulcinea Cream". Es una página web sencilla 
 
 ## Descripción 📝
 
-Esta página web está diseñada para mostrar los productos artesanales de Dulcinea Cream, una pastelería especializada en postres caseros como brownies, cheesecakes y galletas. La página incluye:
+Esta página web está diseñada para mostrar los productos artesanales de Dulcinea Cream, una reposteria especializada en postres caseros como brownies, cheesecakes y galletas. La página incluye:
 
 - Sección de inicio con presentación del negocio
 - Catálogo de productos
@@ -12,12 +12,7 @@ Esta página web está diseñada para mostrar los productos artesanales de Dulci
 - Formulario de contacto
 - Enlaces a redes sociales (Instagram y WhatsApp)
 
-## Tecnologías utilizadas 💻
 
-- HTML5
-- CSS3
-- Bootstrap 5.3
-- JavaScript (a través de Bootstrap)
 
 ## Estructura del proyecto 📂
 
