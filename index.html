@@ -2,84 +2,165 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dulcinea Cream</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
     <!-- ENCABEZADO -->
-    <header class="header">
-        <div class="header__logo-container">
-            <img src="img/logo.jpg" alt="Logo Dulcinea" class="header__logo-img">
-            <h1 class="header__logo-text">Dulcinea Cream</h1>
+    <header class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="header__logo-container">
+                <img src="img/logo.jpg" alt="Logo Dulcinea" class="header__logo-img">
+                <h1 class="header__logo-text">Dulcinea Cream</h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="menuNavbar">
+                <ul class="header__menu navbar-nav ms-auto">
+                    <li class="header__item nav-item"><a class="header__link nav-link" href="#">Inicio</a></li>
+                    <li class="header__item nav-item"><a class="header__link nav-link" href="#productos">Productos</a></li>
+                    <li class="header__item nav-item"><a class="header__link nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="header__nav">
-        <ul class="header__menu">
-            <li class="header__item"><a href="#" class="header__link">Inicio</a></li>
-            <li class="header__item"><a href="#productos" class="header__link">Productos</a></li>
-            <li class="header__item"><a href="#contacto" class="header__link">Contacto</a></li>
-        </ul>
-        </nav>
     </header>
 
     <!-- SECCIÓN PRINCIPAL -->
     <section class="hero">
-        <div class="hero__content">
-            <h2 class="hero__title">Postres hechos con amor</h2>
-            <p class="hero__text">Disfruta de nuestros dulces 100% artesanales. Calidad, sabor y cariño en cada bocado.
-                Elaboramos postres tradicionales con ingredientes naturales para deleitarte en cualquier ocasión
-                especial.</p>
-            <a href="#contacto" class="hero__button">Haz tu pedido</a>
-        </div>
-        <div class="hero__image">
-            <img src="img/postres.jpg" alt="Postres artesanales de Dulcinea Cream" />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="hero__content">
+                        <h2 class="hero__title">Postres hechos con amor</h2>
+                        <p class="hero__text">Disfruta de nuestros dulces 100% artesanales. Calidad, sabor y cariño en cada bocado.
+                            Elaboramos postres tradicionales con ingredientes naturales para deleitarte en cualquier ocasión
+                            especial.</p>
+                        <a href="#contacto" class="hero__button">Haz tu pedido</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="hero__image">
+                        <img src="img/postres.jpg" alt="Postres artesanales de Dulcinea Cream">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- TARJETAS DE PRODUCTOS -->
     <section class="productos" id="productos">
-        <h3 class="productos__title">Nuestros Productos</h3>
-        <div class="productos__grid">
-            <div class="producto-card">
-                <h4 class="producto-card__title">Brownies</h4>
-                <img src="img/brownie.jpg" alt="Brownies artesanales" class="producto-card__img" />
-                <p class="producto-card__desc">Chocolate puro y textura suave. Nuestro postre estrella perfecto para
-                    cualquier momento.</p>
+        <div class="container">
+            <h3 class="productos__title">Nuestros Productos</h3>
+            <div class="row productos__grid">
+                <div class="col-md-4">
+                    <div class="producto-card">
+                        <h4 class="producto-card__title">Brownies</h4>
+                        <img src="img/brownie.jpg" alt="Brownies artesanales" class="producto-card__img">
+                        <p class="producto-card__desc">Chocolate puro y textura suave. Nuestro postre estrella perfecto para
+                            cualquier momento.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="producto-card">
+                        <h4 class="producto-card__title">Cheesecake</h4>
+                        <img src="img/cheesecake.jpg" alt="Cheesecake con mermelada" class="producto-card__img">
+                        <p class="producto-card__desc">Clásico con base de galleta y mermelada artesanal. Disponible en varios
+                            sabores.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="producto-card">
+                        <h4 class="producto-card__title">Galletas</h4>
+                        <img src="img/galletas.jpg" alt="Galletas con chips de chocolate" class="producto-card__img">
+                        <p class="producto-card__desc">Crujientes y con chips de chocolate. Ideales para acompañar tu café o té.</p>
+                    </div>
+                </div>
             </div>
-            <div class="producto-card">
-                <h4 class="producto-card__title">Cheesecake</h4>
-                <img src="img/cheesecake.jpg" alt="Cheesecake con mermelada" class="producto-card__img" />
-                <p class="producto-card__desc">Clásico con base de galleta y mermelada artesanal. Disponible en varios
-                    sabores.</p>
-            </div>
-            <div class="producto-card">
-                <h4 class="producto-card__title">Galletas</h4>
-                <img src="img/galletas.jpg" alt="Galletas con chips de chocolate" class="producto-card__img" />
-                <p class="producto-card__desc">Crujientes y con chips de chocolate. Ideales para acompañar tu café o té.
-                </p>
+        </div>
+    </section>
+    
+    <!-- CARRUSEL DE RESEÑAS -->
+    <section class="reseñas">
+        <div class="container">
+            <h3 class="reseñas__title">Lo que dicen nuestros clientes</h3>
+            <div id="carouselReseñas" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="reseña-card">
+                            <p class="reseña-card__texto">"Los brownies son increíbles, super chocolatosos y con la textura perfecta. Definitivamente los mejores que he probado."</p>
+                            <p class="reseña-card__autor">- María González</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="reseña-card">
+                            <p class="reseña-card__texto">"El cheesecake de frutos rojos es mi favorito. Cremoso y con el balance perfecto entre dulce y ácido."</p>
+                            <p class="reseña-card__autor">- Pedro Ramírez</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="reseña-card">
+                            <p class="reseña-card__texto">"Las galletas son como las que hacía mi abuela. Crujientes por fuera y suaves por dentro. ¡Deliciosas!"</p>
+                            <p class="reseña-card__autor">- Ana Sánchez</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselReseñas" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselReseñas" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
             </div>
         </div>
     </section>
 
     <!-- FORMULARIO DE CONTACTO -->
     <section class="contacto" id="contacto">
-        <h3 class="contacto__title">Contáctanos</h3>
-        <form class="contacto__form">
-            <input type="text" class="contacto__input" placeholder="Nombre" required />
-            <input type="email" class="contacto__input" placeholder="Correo" required />
-            <textarea class="contacto__textarea" placeholder="Mensaje" required></textarea>
-            <button type="submit" class="contacto__button">Enviar</button>
-        </form>
+        <div class="container">
+            <h3 class="contacto__title">Contáctanos</h3>
+            <form class="contacto__form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="contacto__input" placeholder="Nombre" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="contacto__input" placeholder="Correo" required>
+                    </div>
+                    <div class="col-12">
+                        <textarea class="contacto__textarea" placeholder="Mensaje" required></textarea>
+                        <button type="submit" class="contacto__button">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
 
     <!-- PIE DE PÁGINA -->
     <footer class="footer">
-        <p class="footer__text">Dulcinea Cream - Postres y Dulces Artesanales hechos con amor</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="footer__text">Dulcinea Cream - Postres y Dulces Artesanales</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer__redes">
+                        <a href="https://www.instagram.com/dulcinea_cream?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="footer__red">Instagram</a>
+                        <a href="https://wa.me/3241722259" class="footer__red">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
+    <!-- JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

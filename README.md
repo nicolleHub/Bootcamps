@@ -1,73 +1,77 @@
-# Página web de Dulcinea Cream
+# Proyecto Dulcinea Cream 🍰
 
-Esta es mi landing page. Creé una página sencilla para un negocio de postres y dulces artesanales llamado "Dulcinea Cream".
+Este es un proyecto que hice para "Dulcinea Cream". Es una página web sencilla que muestra los productos y servicios de este emprendimiento.
 
-## ¿Qué hace mi página?
+## Descripción 📝
 
-Mi página muestra información sobre algunos de nuestros productos que es de mi emprendimiento. Incluye:
+Esta página web está diseñada para mostrar los productos artesanales de Dulcinea Cream, una pastelería especializada en postres caseros como brownies, cheesecakes y galletas. La página incluye:
 
-- Un encabezado con logo y menú de navegación
-- Una sección principal con una imagen grande y texto
-- Tarjetas de los productos que ofrecen (brownies, cheesecake y galletas)
-- Un formulario para que los clientes puedan contactar al negocio
-- Un pie de página con información
+- Sección de inicio con presentación del negocio
+- Catálogo de productos
+- Reseñas de clientes
+- Formulario de contacto
+- Enlaces a redes sociales (Instagram y WhatsApp)
 
-## Estructura de carpetas
+## Tecnologías utilizadas 💻
+
+- HTML5
+- CSS3
+- Bootstrap 5.3
+- JavaScript (a través de Bootstrap)
+
+## Estructura del proyecto 📂
 
 ```
-BOOTCAMPS/
-  ├── index.html
-  ├── js
-  ├── assets
-  ├── css/
-  │   └── style.css
-  └── img/
-      ├── logo.png
-      ├── postres.jpg
-      ├── brownie.jpg
-      ├── cheesecake.jpg
-      └── galletas.jpg
+dulcinea-cream/
+├── index.html
+├── css/
+│   └── style.css
+├── img/
+│   ├── logo.jpg
+│   ├── postres.jpg
+│   ├── brownie.jpg
+│   ├── cheesecake.jpg
+│   └── galletas.jpg
+└── README.md
 ```
 
+## Cómo visualizar el proyecto 👀
 
-## Metodología BEM
+1. Clona este repositorio a tu computadora
+2. Abre el archivo `index.html` en tu navegador favorito
+3. ¡Listo! Ya puedes navegar por la página web
 
-Para organizar mi CSS, utilicé la metodología BEM (Block, Element, Modifier), que aprendí recientemente en un curso que hice. BEM me ayuda a nombrar mis clases CSS de forma ordenada:
+## Características principales ✨
 
-- **Bloque**: Una sección independiente de la página (por ejemplo: header, hero, productos)
-- **Elemento**: Una parte de un bloque (por ejemplo: header__logo, hero__title)
-- **Modificador**: Una variante de un bloque o elemento (aunque no necesité usarlos en este proyecto)
+- Diseño responsivo (se adapta a distintos tamaños de pantalla)
+- Carrusel de testimonios de clientes
+- Formulario de contacto funcional
+- Enlaces directos a redes sociales
+- Estilo visual acorde a la identidad de la marca
 
-### Ejemplos de BEM en mi código:
+## Lo que aprendí 🧠
 
-- `.header` es un bloque
-  - `.header__logo-container` es un elemento del header
-  - `.header__logo-img` es un elemento del header
-  - `.header__logo-text` es un elemento del header
-  - `.header__nav` es un elemento del header
+Durante este proyecto aprendí a:
+- Estructurar una página web con HTML
+- Darle estilo con CSS personalizado
+- Utilizar Bootstrap para hacer la página responsiva
+- Crear un carrusel de testimonios
+- Diseñar tarjetas de productos atractivas
+- Implementar un formulario de contacto
+- Hacer que la navegación sea fácil e intuitiva
 
-- `.hero` es un bloque
-  - `.hero__content` es un elemento del hero
-  - `.hero__image` es un elemento del hero
+## Mejoras futuras 🚀
 
-- `.producto-card` es un bloque
-  - `.producto-card__title` es un elemento de la tarjeta
-  - `.producto-card__img` es un elemento de la tarjeta
+En el futuro me gustaría:
+- Añadir una galería con más fotos de los productos
+- Implementar una sección de pedidos online
+- Hacer que el formulario de contacto envíe los datos por email
+- Añadir animaciones para mejorar la experiencia de usuario
 
-## Lo que aprendí
+## Contacto 📞
 
-En este proyecto practiqué:
-- Estructurar una página web con HTML 
-- Nombrar clases usando BEM
-- Usar CSS Grid para la sección principal
-- Crear tarjetas de productos
-- Hacer un formulario básico
-- Aplicar estilos CSS básicos como colores, fuentes y espaciados
+Si tienes preguntas sobre este proyecto puedes contactarme a través de mi perfil de GitHub.
 
-## Cómo ver la página
+---
 
-Para ver mi página:
-1. Descarga todos los archivos
-2. Asegúrate de tener todas las imágenes en la carpeta "img"
-3. Abre el archivo index.html en tu navegador
-
+Hecho con ❤️ para Dulcinea Cream
